@@ -111,3 +111,10 @@ main {
 .top {
     top: 10px;
 }
+
+@media screen and (max-width:450px) {
+    .container {
+        max-width: 400px;
+        
+    }
+}
